@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28705.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WA1", "WA1\WA1.csproj", "{0CEEE1CC-F48A-45D7-9DC3-B81785431076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WA.Data", "WA.Data\WA.Data.csproj", "{79FB269A-D1E5-4BB2-902E-1CB23ADE1008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WA.Service", "WA.Service\WA.Service.csproj", "{E2CF20A1-F205-447A-AC39-235DAFEE20A7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WA.SQL", "WA.SQL\WA.SQL.sqlproj", "{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WA1.Tests", "WA1.Tests\WA1.Tests.csproj", "{7B1A327D-E00A-4853-92C6-FD1838870FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{630FB879-9288-4355-9CD5-17D5C7F70821}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEEE1CC-F48A-45D7-9DC3-B81785431076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEEE1CC-F48A-45D7-9DC3-B81785431076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEEE1CC-F48A-45D7-9DC3-B81785431076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEEE1CC-F48A-45D7-9DC3-B81785431076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FB269A-D1E5-4BB2-902E-1CB23ADE1008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FB269A-D1E5-4BB2-902E-1CB23ADE1008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FB269A-D1E5-4BB2-902E-1CB23ADE1008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FB269A-D1E5-4BB2-902E-1CB23ADE1008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CF20A1-F205-447A-AC39-235DAFEE20A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CF20A1-F205-447A-AC39-235DAFEE20A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CF20A1-F205-447A-AC39-235DAFEE20A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CF20A1-F205-447A-AC39-235DAFEE20A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E37A246-D57B-45B0-B3DD-7E2124A0CD5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7B1A327D-E00A-4853-92C6-FD1838870FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1A327D-E00A-4853-92C6-FD1838870FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1A327D-E00A-4853-92C6-FD1838870FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1A327D-E00A-4853-92C6-FD1838870FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD4C4799-CBBA-4D7E-8AF7-040E5B516183}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://yoda:8080/tfs/emergingtekcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WA1\\WA1.csproj
+		SccProjectName1 = WA1
+		SccLocalPath1 = WA1
+		SccProjectUniqueName2 = WA.Data\\WA.Data.csproj
+		SccProjectName2 = WA.Data
+		SccLocalPath2 = WA.Data
+		SccProjectUniqueName3 = WA.Service\\WA.Service.csproj
+		SccProjectName3 = WA.Service
+		SccLocalPath3 = WA.Service
+		SccProjectUniqueName4 = WA.SQL\\WA.SQL.sqlproj
+		SccProjectName4 = WA.SQL
+		SccLocalPath4 = WA.SQL
+		SccProjectUniqueName5 = WA1.Tests\\WA1.Tests.csproj
+		SccProjectName5 = WA1.Tests
+		SccLocalPath5 = WA1.Tests
+	EndGlobalSection
+EndGlobal

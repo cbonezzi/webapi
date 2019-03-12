@@ -340,3 +340,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/WA1/WA1/_bin_deployableAssemblies/amd64
